@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+:root{
+    --decafont: Lexend Deca, sans-serif;
+    --interfont: Inter, sans-serif;
+}
+
+
+body{
+    font-family: var(--interfont);
+    background-color:hsl(233, 47%, 7%);
+    list-style: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width:100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  } 
+
+.card{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    margin-top: 100px;
+
+}
+
+.card-left{
+    padding: 3%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.card-left span{
+    color:hsl(277, 64%, 61%);
+}
+
+.card-right img{
+    width: 150%;
+    filter: sepia(200%) hue-rotate(260deg);
+}
+
+.card-right{
+    color: hsl(277, 64%, 61%);
+}
+
+.content-card{
+    font-size: 14px;
+    color: grey;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+}
+
+.number-deck{
+    font-size: 20px;
+    display: flex;
+    margin-right: 20%;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.num-desc{
+    display: flex;
+    margin-right: 20%;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: grey;
+}
+
+.attribution{
+    color: aliceblue;
+}
